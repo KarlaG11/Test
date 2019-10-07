@@ -1,0 +1,274 @@
+[
+  {
+    "TempId": 7007,
+    "AUT": "GOOGLE",
+    "Description": "Test for use the input parameter.",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 1,
+    "IsExecutable": true,
+    "uri": null,
+    "DataSheet": {
+      "TestCase": null,
+      "Parameters": [
+        {
+          "TempId": 12513,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 12513,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "2",
+              "ParameterId": 12513,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7007,
+          "Name": "Iteration",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12514,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "10",
+              "ParameterId": 12514,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "5",
+              "ParameterId": 12514,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7007,
+          "Name": "DT_Number",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12515,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "",
+              "ParameterId": 12515,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "",
+              "ParameterId": 12515,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7007,
+          "Name": "DT_new",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12516,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "20",
+              "ParameterId": 12516,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "20",
+              "ParameterId": 12516,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7007,
+          "Name": "DT_Param1",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12517,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "Segundo valor",
+              "ParameterId": 12517,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "Segundo valor",
+              "ParameterId": 12517,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7007,
+          "Name": "DT_Param2",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12518,
+          "Iterations": [],
+          "DataSheetId": 7007,
+          "Name": "Skip",
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "Name": "Google ",
+      "Created": null,
+      "Modified": null
+    },
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [
+      {
+        "TempId": 28154,
+        "StepNumber": 1,
+        "ActionId": 27,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "Navigate ",
+        "Locator": null,
+        "Value": "https://www.google.com",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 28155,
+        "StepNumber": 2,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "Wait",
+        "Locator": null,
+        "Value": "5",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 28156,
+        "StepNumber": 3,
+        "ActionId": 1,
+        "ComponentId": null,
+        "CustomActionId": 467,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "TypeJavascript",
+        "Locator": null,
+        "Value": null,
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 28157,
+        "StepNumber": 4,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "wait",
+        "Locator": null,
+        "Value": "5",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Name": "Google _TypeJavascript",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 467,
+    "Description": "",
+    "Code": "////<Mandatory_libraries>\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.InvalidElementStateException;\nimport org.openqa.selenium.JavascriptExecutor;\nimport org.openqa.selenium.Keys;\nimport org.openqa.selenium.NoSuchElementException;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.ie.InternetExplorerDriver;\nimport org.openqa.selenium.interactions.Action;\nimport org.openqa.selenium.interactions.Actions;\nimport org.openqa.selenium.remote.CapabilityType;\nimport org.openqa.selenium.remote.DesiredCapabilities;\nimport org.openqa.selenium.remote.RemoteWebDriver;\nimport org.openqa.selenium.support.ui.ExpectedConditions;\nimport org.openqa.selenium.support.ui.Select;\nimport org.openqa.selenium.support.ui.WebDriverWait;\nimport stmJava.ActionResult;\n//</Mandatory_libraries>\n// Additional libraries might be declared here\nimport javax.script.ScriptEngine;\nimport javax.script.ScriptEngineManager;\n\n//<This_lines_must_not_be_modified>\n   public class TypeJavascript extends ActionResult\n   {\n       /// <summary>\n       /// A method to perform a custom test step\n       /// </summary>\n       /// <param>The method receive parameters:\n       /// driver which is an instance of WebDriver \n       /// and a second optional parameter which can be a String or a String[] array.\n       ///  One Parameter : public ActionResult Execute(WebDriver driver)\n       ///  Two Parameters: public ActionResult Execute(WebDriver driver, String inputValue)\n       ///              or: public ActionResult Execute(WebDriver driver, String[] inputValue)</param>\n       /// <returns>The method returns an ActionResult object which is expected to contain the step\n       /// execution information, such as the status (true or false equivalent to pass or fail), details \n       /// that may explain the fail cause or some extra information and  the path to find the file resulting \n       /// of a screenshot.</returns>\n       /// Also it is possible to save a String value to Datasheet.\n       ///  actionResult.columnName = \"DatasheetColumnName\";\n       ///  actionResult.propertyValue = \"Value to be saved\";\n       /// Or save several values to Datasheet.\n       /// actionResult.ColumnNames.Add('DatasheetColumnName1');\n       /// actionResult.PropertyValues.Add(Value to be saved1);\n       /// actionResult.ColumnNames.Add('DatasheetColumnNameN');\n       /// actionResult.PropertyValues.Add(Value to be savedN);\n       //</This_lines_must_not_be_modified>\n       //<Mandatory_lines>\n       public ActionResult Execute(WebDriver driver, String inputValue)\n       {\n           ActionResult actionResult = new ActionResult();\n           actionResult.status = false;\n           actionResult.comments =  \"\";\n       //</Mandatory_lines>\n       ///////////////WORKSPACE START////////////////////////////////////////////////////////////////////////////////////////\n       \n\t\n\n\t   try{\n\t   JavascriptExecutor js = (JavascriptExecutor)driver;\n//\t    js.executeScript(\"document.getElementById('app-side-navigation-menu-toogle-btn').click()\");\n\t\t    js.executeScript(\"document.getElementByName('q').value = 'hello'\");\n\n\n\t\t\n\t    actionResult.status = true;\n\t    actionResult.comments = \"click on nav var\" + inputValue;\n\t    \t\n\n}\ncatch(Exception e){\n\tactionResult.status = false;\n\tactionResult.comments = e.getMessage();\n}\n\n\n\n\n\n\n        ///////////////WORKSPACE END////////////////////////////////////////////////////////////////////////////////////////\n       //</Mandatory_lines>\n       // Return results in ActionResult object\n           return actionResult;\n       }\n   }\n //</Mandatory_lines>",
+    "Name": "TypeJavascript",
+    "Created": null,
+    "Modified": null
+  }
+]
