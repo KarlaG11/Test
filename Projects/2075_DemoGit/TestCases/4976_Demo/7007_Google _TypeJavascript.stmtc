@@ -182,6 +182,7 @@
         "BotSays": null,
         "Parameters": [],
         "Assertions": [],
+        "qTestStepId": null,
         "Name": null,
         "Created": null,
         "Modified": null
@@ -206,6 +207,7 @@
         "BotSays": null,
         "Parameters": [],
         "Assertions": [],
+        "qTestStepId": null,
         "Name": null,
         "Created": null,
         "Modified": null
@@ -230,6 +232,7 @@
         "BotSays": null,
         "Parameters": [],
         "Assertions": [],
+        "qTestStepId": null,
         "Name": null,
         "Created": null,
         "Modified": null
@@ -254,11 +257,14 @@
         "BotSays": null,
         "Parameters": [],
         "Assertions": [],
+        "qTestStepId": null,
         "Name": null,
         "Created": null,
         "Modified": null
       }
     ],
+    "GRDomainNameandId": null,
+    "qTestTestCaseId": null,
     "Name": "Google _TypeJavascript",
     "Created": null,
     "Modified": null
@@ -266,7 +272,8 @@
   {
     "TempId": 467,
     "Description": "",
-    "Code": "////<Mandatory_libraries>\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.InvalidElementStateException;\nimport org.openqa.selenium.JavascriptExecutor;\nimport org.openqa.selenium.Keys;\nimport org.openqa.selenium.NoSuchElementException;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.ie.InternetExplorerDriver;\nimport org.openqa.selenium.interactions.Action;\nimport org.openqa.selenium.interactions.Actions;\nimport org.openqa.selenium.remote.CapabilityType;\nimport org.openqa.selenium.remote.DesiredCapabilities;\nimport org.openqa.selenium.remote.RemoteWebDriver;\nimport org.openqa.selenium.support.ui.ExpectedConditions;\nimport org.openqa.selenium.support.ui.Select;\nimport org.openqa.selenium.support.ui.WebDriverWait;\nimport stmJava.ActionResult;\n//</Mandatory_libraries>\n// Additional libraries might be declared here\nimport javax.script.ScriptEngine;\nimport javax.script.ScriptEngineManager;\n\n//<This_lines_must_not_be_modified>\n   public class TypeJavascript extends ActionResult\n   {\n       /// <summary>\n       /// A method to perform a custom test step\n       /// </summary>\n       /// <param>The method receive parameters:\n       /// driver which is an instance of WebDriver \n       /// and a second optional parameter which can be a String or a String[] array.\n       ///  One Parameter : public ActionResult Execute(WebDriver driver)\n       ///  Two Parameters: public ActionResult Execute(WebDriver driver, String inputValue)\n       ///              or: public ActionResult Execute(WebDriver driver, String[] inputValue)</param>\n       /// <returns>The method returns an ActionResult object which is expected to contain the step\n       /// execution information, such as the status (true or false equivalent to pass or fail), details \n       /// that may explain the fail cause or some extra information and  the path to find the file resulting \n       /// of a screenshot.</returns>\n       /// Also it is possible to save a String value to Datasheet.\n       ///  actionResult.columnName = \"DatasheetColumnName\";\n       ///  actionResult.propertyValue = \"Value to be saved\";\n       /// Or save several values to Datasheet.\n       /// actionResult.ColumnNames.Add('DatasheetColumnName1');\n       /// actionResult.PropertyValues.Add(Value to be saved1);\n       /// actionResult.ColumnNames.Add('DatasheetColumnNameN');\n       /// actionResult.PropertyValues.Add(Value to be savedN);\n       //</This_lines_must_not_be_modified>\n       //<Mandatory_lines>\n       public ActionResult Execute(WebDriver driver, String inputValue)\n       {\n           ActionResult actionResult = new ActionResult();\n           actionResult.status = false;\n           actionResult.comments =  \"\";\n       //</Mandatory_lines>\n       ///////////////WORKSPACE START////////////////////////////////////////////////////////////////////////////////////////\n       \n\t\n\n\t   try{\n\t   JavascriptExecutor js = (JavascriptExecutor)driver;\n//\t    js.executeScript(\"document.getElementById('app-side-navigation-menu-toogle-btn').click()\");\n\t\t    js.executeScript(\"document.getElementByName('q').value = 'hello'\");\n\n\n\t\t\n\t    actionResult.status = true;\n\t    actionResult.comments = \"click on nav var\" + inputValue;\n\t    \t\n\n}\ncatch(Exception e){\n\tactionResult.status = false;\n\tactionResult.comments = e.getMessage();\n}\n\n\n\n\n\n\n        ///////////////WORKSPACE END////////////////////////////////////////////////////////////////////////////////////////\n       //</Mandatory_lines>\n       // Return results in ActionResult object\n           return actionResult;\n       }\n   }\n //</Mandatory_lines>",
+    "Code": "////<Mandatory_libraries>\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.InvalidElementStateException;\nimport org.openqa.selenium.JavascriptExecutor;\nimport org.openqa.selenium.Keys;\nimport org.openqa.selenium.NoSuchElementException;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.ie.InternetExplorerDriver;\nimport org.openqa.selenium.interactions.Action;\nimport org.openqa.selenium.interactions.Actions;\nimport org.openqa.selenium.remote.CapabilityType;\nimport org.openqa.selenium.remote.DesiredCapabilities;\nimport org.openqa.selenium.remote.RemoteWebDriver;\nimport org.openqa.selenium.support.ui.ExpectedConditions;\nimport org.openqa.selenium.support.ui.Select;\nimport org.openqa.selenium.support.ui.WebDriverWait;\nimport stmJava.ActionResult;\n//</Mandatory_libraries>\n// Additional libraries might be declared here\nimport javax.script.ScriptEngine;\nimport javax.script.ScriptEngineManager;\n\n//<This_lines_must_not_be_modified>\n   public class TypeJavascript extends ActionResult\n   {\n       /// <summary>\n       /// A method to perform a custom test step\n       /// </summary>\n       /// <param>The method receive parameters:\n       /// driver which is an instance of WebDriver \n       /// and a second optional parameter which can be a String or a String[] array.\n       ///  One Parameter : public ActionResult Execute(WebDriver driver)\n       ///  Two Parameters: public ActionResult Execute(WebDriver driver, String inputValue)\n       ///              or: public ActionResult Execute(WebDriver driver, String[] inputValue)</param>\n       /// <returns>The method returns an ActionResult object which is expected to contain the step\n       /// execution information, such as the status (true or false equivalent to pass or fail), details \n       /// that may explain the fail cause or some extra information and  the path to find the file resulting \n       /// of a screenshot.</returns>\n       /// Also it is possible to save a String value to Datasheet.\n       ///  actionResult.columnName = \"DatasheetColumnName\";\n       ///  actionResult.propertyValue = \"Value to be saved\";\n       /// Or save several values to Datasheet.\n       /// actionResult.ColumnNames.Add('DatasheetColumnName1');\n       /// actionResult.PropertyValues.Add(Value to be saved1);\n       /// actionResult.ColumnNames.Add('DatasheetColumnNameN');\n       /// actionResult.PropertyValues.Add(Value to be savedN);\n       //</This_lines_must_not_be_modified>\n       //<Mandatory_lines>\n       public ActionResult Execute(WebDriver driver, String inputValue)\n       {\n           ActionResult actionResult = new ActionResult();\n           actionResult.status = false;\n           actionResult.comments =  \"\";\n       //</Mandatory_lines>\n       ///////////////WORKSPACE START////////////////////////////////////////////////////////////////////////////////////////\n       \n\t\n\n\t   try{\n\t   JavascriptExecutor js = (JavascriptExecutor)driver;\n//\t    js.executeScript(\"document.getElementById('app-side-navigation-menu-toogle-btn').click()\");\n\t\t    js.executeScript(\"document.getElementByName('q').value = 'hello'\");\n\n\n\t\t\n\t    actionResult.status = true;\n\t    actionResult.comments = \"click on nav var\" + inputValue;\n\t    \t\n\n}\ncatch(Exception e){\n\tactionResult.status = false;\n\tactionResult.comments = e.getMessage();\n}\n\n\n\n\n\n\n        ///////////////WORKSPACE END////////////////////////////////////////////////////////////////////////////////////////\n       //</Mandatory_lines>\n       // Return results in ActionResult object\n           return actionResult;\n       }\n   }\n //</Mandatory_lines>\n",
+    "Type": 1,
     "Name": "TypeJavascript",
     "Created": null,
     "Modified": null
